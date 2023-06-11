@@ -9,10 +9,10 @@ import scrapy
 class FirstproItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    isin=scrapy.Field()
-    bond_code=scrapy.Field()
-    issuer=scrapy.Field()
-    bond_type=scrapy.Field()
-    issue_date=scrapy.Field()
-    latest_rating=scrapy.Field()
+    title=scrapy.Field()
+    rating=scrapy.Field()
+    src=scrapy.Field()
+    writer=scrapy.Field()
+    press=scrapy.Field()
+    press_time=scrapy.Field()
     pass
